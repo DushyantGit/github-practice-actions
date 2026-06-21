@@ -10,11 +10,9 @@ on:
 
 jobs:
 # 1st job (give indentation)
-
   say-hello:
-  
   # create an Ephermal container with Ubuntu running
-    runs-on: uubuntu-latest 
+    runs-on: ubuntu-latest
     # That ephermal container will have steps to execute, hence name those steps and use run: run has the command 
     steps:
       - name: say hello to everyone
